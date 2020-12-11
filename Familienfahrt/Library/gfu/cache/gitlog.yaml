@@ -13,9 +13,123 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-12-11T23:07:21.454+01:00
+  lastUpdatedAtString: 2020-12-12T00:02:48.723+01:00
   initializedAtString: 2020-12-11T22:12:37.663+01:00
   log:
+  - commitID: 4858f0a01a231af461f8880356876c9882605b9b
+    mergeA: 
+    mergeB: 
+    authorName: TTobias
+    authorEmail: 58746166+TTobias@users.noreply.github.com
+    commitEmail: 58746166+TTobias@users.noreply.github.com
+    commitName: TTobias
+    summary: Improved Car Behavior and PlayerLookaround
+    description: 
+    timeString: 2020-12-11T23:30:50.000+01:00
+    commitTimeString: 2020-12-11T23:30:50.000+01:00
+    changes:
+    - path: Familienfahrt\Assets\Models\test\car.mat
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Models\test\car.mat
+      projectPath: Assets\Models\test\car.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Familienfahrt\Assets\Models\test\car.mat.meta
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Models\test\car.mat.meta
+      projectPath: Assets\Models\test\car.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Familienfahrt\Assets\Resources\test\test_car.prefab
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Resources\test\test_car.prefab
+      projectPath: Assets\Resources\test\test_car.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Assets\Scenes\Fahrverhalten.unity
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Scenes\Fahrverhalten.unity
+      projectPath: Assets\Scenes\Fahrverhalten.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Assets\Scripts\CarMovement.cs
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Scripts\CarMovement.cs
+      projectPath: Assets\Scripts\CarMovement.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Assets\Scripts\PlayerLookaround.cs
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Scripts\PlayerLookaround.cs
+      projectPath: Assets\Scripts\PlayerLookaround.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Library\StateCache\Hierarchy\576fc3-mainStage.json
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\StateCache\Hierarchy\576fc3-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\576fc3-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Library\StateCache\SceneView\f22a63-mainStage.json
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\StateCache\SceneView\f22a63-mainStage.json
+      projectPath: Library\StateCache\SceneView\f22a63-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Library\assetDatabase3
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: a86e8498e367303330a5861b0f7d971de11f6b9c
     mergeA: 
     mergeB: 
