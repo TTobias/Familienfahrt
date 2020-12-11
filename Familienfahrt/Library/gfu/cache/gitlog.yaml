@@ -13,9 +13,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-12-11T22:12:37.700+01:00
+  lastUpdatedAtString: 2020-12-11T22:13:14.751+01:00
   initializedAtString: 2020-12-11T22:12:37.663+01:00
   log:
+  - commitID: c006196ff31869ddbe4b747e47800c8ea6306299
+    mergeA: 
+    mergeB: 
+    authorName: TTobias
+    authorEmail: 58746166+TTobias@users.noreply.github.com
+    commitEmail: 58746166+TTobias@users.noreply.github.com
+    commitName: TTobias
+    summary: added personalStuff
+    description: 
+    timeString: 2020-12-11T22:12:58.000+01:00
+    commitTimeString: 2020-12-11T22:12:58.000+01:00
+    changes:
+    - path: Familienfahrt\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Familienfahrt\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 3e77440020ff082f0d7902b94c024e40cb66985b
     mergeA: 
     mergeB: 

@@ -13,9 +13,99 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-12-11T22:12:39.535+01:00
+  lastUpdatedAtString: 2020-12-11T22:25:41.853+01:00
   initializedAtString: 2020-12-11T22:10:40.432+01:00
   entries:
+  - path: Familienfahrt\Assets\Models.meta
+    fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Models.meta
+    projectPath: Assets\Models.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Familienfahrt\Assets\Models\test.meta
+    fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Models\test.meta
+    projectPath: Assets\Models\test.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Familienfahrt\Assets\Models\test\Asphalt.mat
+    fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Models\test\Asphalt.mat
+    projectPath: Assets\Models\test\Asphalt.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Familienfahrt\Assets\Models\test\Asphalt.mat.meta
+    fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Models\test\Asphalt.mat.meta
+    projectPath: Assets\Models\test\Asphalt.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Familienfahrt\Assets\Models\test\car_testversion.fbx
+    fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Models\test\car_testversion.fbx
+    projectPath: Assets\Models\test\car_testversion.fbx
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Familienfahrt\Assets\Models\test\car_testversion.fbx.meta
+    fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Models\test\car_testversion.fbx.meta
+    projectPath: Assets\Models\test\car_testversion.fbx.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Familienfahrt\Assets\Resources.meta
+    fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Resources.meta
+    projectPath: Assets\Resources.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Familienfahrt\Assets\Resources\test.meta
+    fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Resources\test.meta
+    projectPath: Assets\Resources\test.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Familienfahrt\Assets\Resources\test\test_car.prefab
+    fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Resources\test\test_car.prefab
+    projectPath: Assets\Resources\test\test_car.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Familienfahrt\Assets\Resources\test\test_car.prefab.meta
+    fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Resources\test\test_car.prefab.meta
+    projectPath: Assets\Resources\test\test_car.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Familienfahrt\Assets\Scenes\Fahrverhalten.unity
+    fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Scenes\Fahrverhalten.unity
+    projectPath: Assets\Scenes\Fahrverhalten.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Familienfahrt\Assets\Scenes\Fahrverhalten.unity.meta
+    fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Scenes\Fahrverhalten.unity.meta
+    projectPath: Assets\Scenes\Fahrverhalten.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Familienfahrt\Assets\Scenes\SampleScene.unity
+    fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Familienfahrt\Assets\Scripts.meta
+    fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Assets\Scripts.meta
+    projectPath: Assets\Scripts.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Familienfahrt\Library\assetDatabase3
+    fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Familienfahrt\Library\gfu\cache\branches.yaml
     fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
@@ -39,10 +129,16 @@ MonoBehaviour:
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Familienfahrt\Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
+  - path: Familienfahrt\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\Tobias\Documents\GitHub\Familienfahrt\Familienfahrt\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
