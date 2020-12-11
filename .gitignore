@@ -2,7 +2,9 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/Familienfahrt/[Ll]ibrary/
+
+/Familienfahrt/Library/
+/Familienfahrt/library/
 /Familienfahrt/[Tt]emp/
 /Familienfahrt/[Oo]bj/
 /Familienfahrt/[Bb]uild/
