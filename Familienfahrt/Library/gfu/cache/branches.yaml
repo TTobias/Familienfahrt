@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-12-11T22:07:17.044+01:00
-  initializedAtString: 2020-12-11T22:07:17.035+01:00
-  localBranches: []
-  remoteBranches: []
+  lastUpdatedAtString: 2020-12-11T22:12:37.379+01:00
+  initializedAtString: 2020-12-11T22:12:37.356+01:00
+  localBranches:
+  - name: master
+    tracking: origin/master
+  remoteBranches:
+  - name: origin/master
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/TTobias/Familienfahrt.git
@@ -26,12 +30,27 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - master
+    values:
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/TTobias/Familienfahrt.git
+      trackingBranch: master
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - master
+    subKeyValues:
+    - Values:
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/TTobias/Familienfahrt.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
