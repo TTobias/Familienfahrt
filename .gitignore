@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/SN1P3R/[Ll]ibrary/
-/SN1P3R/[Tt]emp/
-/SN1P3R/[Oo]bj/
-/SN1P3R/[Bb]uild/
-/SN1P3R/[Bb]uilds/
-/SN1P3R/[Ll]ogs/
-/SN1P3R/[Mm]emoryCaptures/
+/Familienfahrt/[Ll]ibrary/
+/Familienfahrt/[Tt]emp/
+/Familienfahrt/[Oo]bj/
+/Familienfahrt/[Bb]uild/
+/Familienfahrt/[Bb]uilds/
+/Familienfahrt/[Ll]ogs/
+/Familienfahrt/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
