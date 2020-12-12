@@ -38,6 +38,6 @@ public class MainMenuFunctions : MonoBehaviour
     }
 
     public void startGame() {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("Citymap");
     }
 }
