@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 1665d6d31f8ef1e478f164cb731a92f5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: "Anh\xE4nger"
+    100002: LKW
+    100004: //RootNode
+    100006: Reifen
+    100008: Reifen.001
+    100010: Reifen.002
+    100012: Reifen.003
+    100014: Reifen.004
+    100016: Reifen.005
+    100018: Reifen.006
+    100020: Reifen.007
+    100022: Reifen.008
+    100024: Reifen.009
+    400000: "Anh\xE4nger"
+    400002: LKW
+    400004: //RootNode
+    400006: Reifen
+    400008: Reifen.001
+    400010: Reifen.002
+    400012: Reifen.003
+    400014: Reifen.004
+    400016: Reifen.005
+    400018: Reifen.006
+    400020: Reifen.007
+    400022: Reifen.008
+    400024: Reifen.009
+    2100000: BaseColor
+    2100002: Accent
+    2100004: Window
+    2100006: Lights
+    2100008: Texture
+    2100010: BottomColor
+    2100012: Black
+    2100014: Grey
+    2300000: "Anh\xE4nger"
+    2300002: LKW
+    2300004: Reifen
+    2300006: Reifen.001
+    2300008: Reifen.002
+    2300010: Reifen.003
+    2300012: Reifen.004
+    2300014: Reifen.005
+    2300016: Reifen.006
+    2300018: Reifen.007
+    2300020: Reifen.008
+    2300022: Reifen.009
+    3300000: "Anh\xE4nger"
+    3300002: LKW
+    3300004: Reifen
+    3300006: Reifen.001
+    3300008: Reifen.002
+    3300010: Reifen.003
+    3300012: Reifen.004
+    3300014: Reifen.005
+    3300016: Reifen.006
+    3300018: Reifen.007
+    3300020: Reifen.008
+    3300022: Reifen.009
+    4300000: LKW
+    4300002: "Anh\xE4nger"
+    4300004: Reifen
+    4300006: Reifen.001
+    4300008: Reifen.002
+    4300010: Reifen.003
+    4300012: Reifen.004
+    4300014: Reifen.005
+    4300016: Reifen.006
+    4300018: Reifen.007
+    4300020: Reifen.008
+    4300022: Reifen.009
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
