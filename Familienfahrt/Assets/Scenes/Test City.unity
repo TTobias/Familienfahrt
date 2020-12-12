@@ -10957,12 +10957,12 @@ PrefabInstance:
     - target: {fileID: 8950717462829309617, guid: ed15b8f78c5096d4cadcdc3e28675d90,
         type: 3}
       propertyPath: acceleration
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8950717462829309617, guid: ed15b8f78c5096d4cadcdc3e28675d90,
         type: 3}
       propertyPath: maxSpeed
-      value: 30
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 8950717462829309618, guid: ed15b8f78c5096d4cadcdc3e28675d90,
         type: 3}
