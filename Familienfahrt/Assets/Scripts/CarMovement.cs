@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CarMovement : MonoBehaviour {
 
@@ -10,6 +11,7 @@ public class CarMovement : MonoBehaviour {
     public float acceleration = 0.3f;
 
     public string speedText = "";
+    public Text text;
     
     public void Start() {
         car = this.transform;
@@ -17,6 +19,7 @@ public class CarMovement : MonoBehaviour {
 
     public void FixedUpdate() {
         speedText = speed * 3f + " km/h";
+        text.text = speedText;
         move();
         rotate();
     }
