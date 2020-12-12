@@ -5,33 +5,37 @@ using UnityEngine.UI;
 
 public class MoodCalculator : MonoBehaviour {
 
-    public float boy_mood = 100f;
-    public float girl_mood = 100f;
-    public float wife_mood = 100f;
+   
 
-    public Text moodInspector;
-
-
-    public void showMoodGUI() {
-        moodInspector.text = "Mood:\nBoy : " + (int)boy_mood + "\nGirl: " + (int)girl_mood + "\nWife: " + (int)wife_mood;
+    public void FixedUpdate() {
+        showMoodGUI();
+        EventManagement();
     }
-
-
-
-
-
-
 
     public void EventManagement() {
         DefaultMoodDecline();
 
-
+        girlEvents();
+        boyEvents();
+        wifeEvents();
     }
 
 
 
 
-    int moodCooldown = 100;
+
+
+
+
+    [Header("Mood")]
+
+    public Text moodInspector;
+
+    public float boy_mood = 100f;
+    public float girl_mood = 100f;
+    public float wife_mood = 100f;
+
+    public int moodCooldown = 100;
     public void DefaultMoodDecline() {
         moodCooldown--;
         if (moodCooldown < 0) {
@@ -44,10 +48,42 @@ public class MoodCalculator : MonoBehaviour {
         }
     }
 
+    public void showMoodGUI() {
+        moodInspector.text = "Mood:\nBoy : " + (int)boy_mood + "\nGirl: " + (int)girl_mood + "\nWife: " + (int)wife_mood;
+    }
 
 
-    public void FixedUpdate() {
-        showMoodGUI();
-        EventManagement();
+    [Header("SPEECH")]
+    public float girlSpeechChance = 3f;
+    public float boySpeechChance = 3f;
+    public float wifeSpeechChance = 3f;
+
+
+    public void girlEvents() {
+        if(Random.Range(0f,1000f) < girlSpeechChance) {
+            createSpeechObject(Language.getText(Language.tmpGirlSpeech));
+        }
+
+    }
+    public void boyEvents() {
+        if (Random.Range(0f, 1000f) < boySpeechChance) {
+            createSpeechObject(Language.getText(Language.tmpBoySpeech));
+        }
+
+    }
+    public void wifeEvents() {
+        if (Random.Range(0f, 1000f) < wifeSpeechChance) {
+            createSpeechObject(Language.getText(Language.tmpWifeSpeech));
+        }
+
+    }
+
+
+    public GameObject speechObject;
+    public Transform speechSpace;
+
+    public void createSpeechObject(string txt) {
+        GameObject tmp = Instantiate(speechObject,speechSpace);
+        tmp.GetComponent<SpeechObjectBehavior>().create(txt);
     }
 }

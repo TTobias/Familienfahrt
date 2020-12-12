@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1744031588}
   - component: {fileID: 1744031587}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: SpeedText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -144,6 +144,10 @@ MonoBehaviour:
   girl_mood: 100
   wife_mood: 100
   moodInspector: {fileID: 5228916381240379297}
+  girlSpeechChance: 3
+  boySpeechChance: 3
+  wifeSpeechChance: 3
+  moodCooldown: 100
 --- !u!1 &5228916381080693529
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,7 +191,7 @@ GameObject:
   - component: {fileID: 5228916381240379310}
   - component: {fileID: 5228916381240379297}
   m_Layer: 5
-  m_Name: Text
+  m_Name: MoodText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -308,6 +312,7 @@ MonoBehaviour:
   acceleration: 4
   speedText: 
   text: {fileID: 1744031587}
+  rotationStrength: 3
 --- !u!54 &5228916381437800747
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -513,6 +518,7 @@ RectTransform:
   m_Children:
   - {fileID: 5228916381240379296}
   - {fileID: 1744031586}
+  - {fileID: 1873980476637019783}
   m_Father: {fileID: 5228916381021087910}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -581,6 +587,41 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!1 &6613587010330840851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1873980476637019783}
+  m_Layer: 5
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1873980476637019783
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6613587010330840851}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5228916382235759529}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0000060797, y: 0}
+  m_SizeDelta: {x: 400, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &5228916380897845619
 PrefabInstance:
   m_ObjectHideFlags: 0
