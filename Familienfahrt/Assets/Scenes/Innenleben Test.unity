@@ -272,6 +272,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!224 &622482281 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1873980476637019783, guid: 4831bcb292537c242bfa82348731b874,
+    type: 3}
+  m_PrefabInstance: {fileID: 5228916381968347814}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &920994331
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,6 +351,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1744031587, guid: 4831bcb292537c242bfa82348731b874, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: b7ad54d8c70bdc44d85c9d61748ed452,
+        type: 3}
+    - target: {fileID: 5228916381021087908, guid: 4831bcb292537c242bfa82348731b874,
+        type: 3}
+      propertyPath: speechSpace
+      value: 
+      objectReference: {fileID: 622482281}
+    - target: {fileID: 5228916381021087908, guid: 4831bcb292537c242bfa82348731b874,
+        type: 3}
+      propertyPath: speechObject
+      value: 
+      objectReference: {fileID: 1769738998194248846, guid: b80eb3bd5fa911a41905ba45e67ff203,
+        type: 3}
+    - target: {fileID: 5228916381240379297, guid: 4831bcb292537c242bfa82348731b874,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.9921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228916381240379297, guid: 4831bcb292537c242bfa82348731b874,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.25882354
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228916381240379297, guid: 4831bcb292537c242bfa82348731b874,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: b7ad54d8c70bdc44d85c9d61748ed452,
+        type: 3}
+    - target: {fileID: 5228916381240379297, guid: 4831bcb292537c242bfa82348731b874,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228916381240379297, guid: 4831bcb292537c242bfa82348731b874,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5228916381437800746, guid: 4831bcb292537c242bfa82348731b874,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -404,6 +452,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerCar
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228916382235759529, guid: 4831bcb292537c242bfa82348731b874,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6613587010330840851, guid: 4831bcb292537c242bfa82348731b874,
         type: 3}
