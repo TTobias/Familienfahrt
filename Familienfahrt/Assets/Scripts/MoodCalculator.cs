@@ -49,7 +49,7 @@ public class MoodCalculator : MonoBehaviour {
     }
 
     public void showMoodGUI() {
-        moodInspector.text = "Mood:\nBoy : " + (int)boy_mood + "\nGirl: " + (int)girl_mood + "\nWife: " + (int)wife_mood;
+        moodInspector.text = "Mood  \nBoy : " + (int)boy_mood + "\nGirl: " + (int)girl_mood + "\nWife: " + (int)wife_mood;
     }
 
 
@@ -60,19 +60,19 @@ public class MoodCalculator : MonoBehaviour {
 
 
     public void girlEvents() {
-        if(Random.Range(0f,1000f) < girlSpeechChance) {
+        if(Random.Range(0f,10000f) < girlSpeechChance) {
             createSpeechObject(Language.getText(Language.tmpGirlSpeech));
         }
 
     }
     public void boyEvents() {
-        if (Random.Range(0f, 1000f) < boySpeechChance) {
+        if (Random.Range(0f, 10000f) < boySpeechChance) {
             createSpeechObject(Language.getText(Language.tmpBoySpeech));
         }
 
     }
     public void wifeEvents() {
-        if (Random.Range(0f, 1000f) < wifeSpeechChance) {
+        if (Random.Range(0f, 10000f) < wifeSpeechChance) {
             createSpeechObject(Language.getText(Language.tmpWifeSpeech));
         }
 
