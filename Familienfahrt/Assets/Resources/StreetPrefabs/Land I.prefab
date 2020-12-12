@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 5228659798769118879}
   - component: {fileID: 7192426863428323523}
   - component: {fileID: 4347182195442880879}
+  - component: {fileID: 5478046949951145184}
   m_Layer: 0
   m_Name: street_I_land
   m_TagString: Untagged
@@ -110,3 +111,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5478046949951145184
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6984212795645039048}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: fe3b9d65b1e1ae3419f3fbe3d5150764, type: 3}
