@@ -16,7 +16,7 @@ public class CarMovement : MonoBehaviour {
     }
 
     public void FixedUpdate() {
-        speedText = speed*3f + " km/h"
+        speedText = speed * 3f + " km/h";
         move();
         rotate();
     }
