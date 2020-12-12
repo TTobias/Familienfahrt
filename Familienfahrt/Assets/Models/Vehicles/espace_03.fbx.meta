@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: ece7f0b3bdcf2914a8a7c826594a4611
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armatur
+    100002: Auto
+    100004: //RootNode
+    100006: Lenkrad
+    100008: "R\xFCckbank"
+    100010: "R\xFCckspiegel"
+    100012: Scheiben
+    100014: sitz
+    400000: Armatur
+    400002: Auto
+    400004: //RootNode
+    400006: Lenkrad
+    400008: "R\xFCckbank"
+    400010: "R\xFCckspiegel"
+    400012: Scheiben
+    400014: sitz
+    2100000: MainColor
+    2100002: Black
+    2100004: Spiegel
+    2100006: Sitzbezug
+    2100008: Scheiben
+    2300000: Armatur
+    2300002: Auto
+    2300004: Lenkrad
+    2300006: "R\xFCckbank"
+    2300008: "R\xFCckspiegel"
+    2300010: Scheiben
+    2300012: sitz
+    3300000: Armatur
+    3300002: Auto
+    3300004: Lenkrad
+    3300006: "R\xFCckbank"
+    3300008: "R\xFCckspiegel"
+    3300010: Scheiben
+    3300012: sitz
+    4300000: Auto
+    4300002: sitz
+    4300004: "R\xFCckbank"
+    4300006: Lenkrad
+    4300008: Armatur
+    4300010: "R\xFCckspiegel"
+    4300012: Scheiben
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
