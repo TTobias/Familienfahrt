@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8059829479694971436}
   - component: {fileID: 392205571894718705}
   - component: {fileID: 211863654191825790}
+  - component: {fileID: 4521448602807966414}
   m_Layer: 0
   m_Name: bridge_base_01
   m_TagString: Untagged
@@ -77,6 +78,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4521448602807966414
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2534183002879103365}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300002, guid: b807830633bdc304984b53977ba6f178, type: 3}
 --- !u!1 &3784073783195067822
 GameObject:
   m_ObjectHideFlags: 0
@@ -151,6 +166,7 @@ GameObject:
   - component: {fileID: 8897293089785054350}
   - component: {fileID: 3765657729985438995}
   - component: {fileID: 4248498327060731932}
+  - component: {fileID: 8372752993556254338}
   m_Layer: 0
   m_Name: bridge_street_01
   m_TagString: Untagged
@@ -218,3 +234,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8372752993556254338
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8553381314991530467}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: b807830633bdc304984b53977ba6f178, type: 3}

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4985895847397543958}
   - component: {fileID: 2404437906773441266}
   - component: {fileID: 4280607891612178472}
+  - component: {fileID: 3246362202443824078}
   m_Layer: 0
   m_Name: street_TRANS_cityTOland
   m_TagString: Untagged
@@ -80,6 +81,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3246362202443824078
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7202008369439358405}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: f403c64d34682c94685c26c0d7e68849, type: 3}
 --- !u!1 &7233617131948777424
 GameObject:
   m_ObjectHideFlags: 0
