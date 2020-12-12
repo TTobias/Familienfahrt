@@ -53,22 +53,6 @@ public class PlayerLookaround : MonoBehaviour
 
 
 
-
-    public void EventManagement() {
-
-    }
-
-
-
-
-
-    public void DefaultMoodDecline() {
-
-    }
-
-
-
-
     public void Update() {
 
 

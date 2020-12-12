@@ -20,7 +20,34 @@ public class MoodCalculator : MonoBehaviour {
 
 
 
+
+
+    public void EventManagement() {
+        DefaultMoodDecline();
+
+
+    }
+
+
+
+
+    int moodCooldown = 100;
+    public void DefaultMoodDecline() {
+        moodCooldown--;
+        if (moodCooldown < 0) {
+            moodCooldown = 100;
+
+            boy_mood -= 0.5f;
+            girl_mood -= 0.5f;
+            wife_mood -= 0.3f;
+
+        }
+    }
+
+
+
     public void FixedUpdate() {
         showMoodGUI();
+        EventManagement();
     }
 }
