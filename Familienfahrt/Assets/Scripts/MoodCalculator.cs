@@ -13,7 +13,7 @@ public class MoodCalculator : MonoBehaviour {
 
 
     public void showMoodGUI() {
-        moodInspector.text = "Mood:\nBoy : " + boy_mood + "\nGirl: " + girl_mood + "\nWife: " + wife_mood;
+        moodInspector.text = "Mood:\nBoy : " + (int)boy_mood + "\nGirl: " + (int)girl_mood + "\nWife: " + (int)wife_mood;
     }
 
 
