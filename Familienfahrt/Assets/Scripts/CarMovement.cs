@@ -19,10 +19,10 @@ public class CarMovement : MonoBehaviour {
     }
 
     public void move() {
-        speed += 0.3f * Input.GetAxis("Vertical") * Time.deltaTime;
+        speed += acceleration * Input.GetAxis("Vertical") * Time.deltaTime;
         if (speed > maxSpeed) speed = maxSpeed;
         if (speed < 0) speed = 0;
-        car.transform.position += car.transform.forward * Time.deltaTime * speed * Input.GetAxis("Vertical");
+        car.transform.position += car.transform.forward * Time.deltaTime * speed;
     }
 
     public void rotate() {
