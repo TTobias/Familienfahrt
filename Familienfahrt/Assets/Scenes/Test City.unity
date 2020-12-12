@@ -10934,6 +10934,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8950717462829309617, guid: ed15b8f78c5096d4cadcdc3e28675d90,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 8950717462829309618, guid: ed15b8f78c5096d4cadcdc3e28675d90,
         type: 3}
       propertyPath: m_Name
