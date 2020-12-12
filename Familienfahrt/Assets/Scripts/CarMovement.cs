@@ -8,12 +8,15 @@ public class CarMovement : MonoBehaviour {
     public float speed = 0f;
     public float maxSpeed = 15f;
     public float acceleration = 0.3f;
+
+    public string speedText = "";
     
     public void Start() {
         car = this.transform;
     }
 
     public void FixedUpdate() {
+        speedText = speed*3f + " km/h"
         move();
         rotate();
     }
