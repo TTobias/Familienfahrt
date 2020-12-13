@@ -17,6 +17,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: mat_roof
+    second: {fileID: 2100000, guid: 99961ad3081ef1149b693d491c2c7997, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_slabs
+    second: {fileID: 2100000, guid: e7f22a767b0194342be69b343c3ea399, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: mat_window
     second: {fileID: 2100000, guid: 64e9a473d7612f444b098ed54f24e5ae, type: 2}
   - first:

@@ -13,7 +13,22 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: building_004
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_roof
+    second: {fileID: 2100000, guid: 99961ad3081ef1149b693d491c2c7997, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_window
+    second: {fileID: 2100000, guid: 64e9a473d7612f444b098ed54f24e5ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall
+    second: {fileID: 2100000, guid: b8ffb81cdd117ec4f9693cdb8a61d07a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
