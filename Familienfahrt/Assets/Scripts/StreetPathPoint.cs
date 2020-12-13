@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-[ExecuteInEditMode]
+//[ExecuteInEditMode]
 public class StreetPathPoint : MonoBehaviour
 {
     public List<StreetPathPoint> next;
