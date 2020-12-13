@@ -573,7 +573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  scoreText: {fileID: 0}
+  scoreText: {fileID: 4276223457869603497}
   gameOver: 0
   gameOverLay: {fileID: 4331615854143245192}
   moodInspector: {fileID: 5228916381240379297}
@@ -1140,7 +1140,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.79, y: 0.78}
   m_AnchorMax: {x: 0.98, y: 0.97}
-  m_AnchoredPosition: {x: -0.0000097752, y: -0.0000017881}
+  m_AnchoredPosition: {x: -0.000015258789, y: 0}
   m_SizeDelta: {x: 91.58, y: 51.49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4643449217975899268
