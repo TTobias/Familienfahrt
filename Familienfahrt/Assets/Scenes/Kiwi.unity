@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -999,6 +999,144 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!1001 &1503855676869852147
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1503855677117545460, guid: 4591e3ae33272dc4799bbe36e6a6b667,
+        type: 3}
+      propertyPath: m_Name
+      value: Ortsschild_Hombursch
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503855677117573076, guid: 4591e3ae33272dc4799bbe36e6a6b667,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503855677117573076, guid: 4591e3ae33272dc4799bbe36e6a6b667,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503855677117573076, guid: 4591e3ae33272dc4799bbe36e6a6b667,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503855677117573076, guid: 4591e3ae33272dc4799bbe36e6a6b667,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503855677117573076, guid: 4591e3ae33272dc4799bbe36e6a6b667,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9166198
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503855677117573076, guid: 4591e3ae33272dc4799bbe36e6a6b667,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503855677117573076, guid: 4591e3ae33272dc4799bbe36e6a6b667,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.3997601
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503855677117573076, guid: 4591e3ae33272dc4799bbe36e6a6b667,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503855677117573076, guid: 4591e3ae33272dc4799bbe36e6a6b667,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503855677117573076, guid: 4591e3ae33272dc4799bbe36e6a6b667,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -132.87401
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503855677117573076, guid: 4591e3ae33272dc4799bbe36e6a6b667,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4591e3ae33272dc4799bbe36e6a6b667, type: 3}
+--- !u!1001 &1544806888970861946
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1544806888563821568, guid: 3db3c019f63d65c4582097ae3a17994a,
+        type: 3}
+      propertyPath: m_Name
+      value: Ortsschild_Saarlui
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544806888563821569, guid: 3db3c019f63d65c4582097ae3a17994a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.798
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544806888563821569, guid: 3db3c019f63d65c4582097ae3a17994a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544806888563821569, guid: 3db3c019f63d65c4582097ae3a17994a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -17.209
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544806888563821569, guid: 3db3c019f63d65c4582097ae3a17994a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544806888563821569, guid: 3db3c019f63d65c4582097ae3a17994a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9166198
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544806888563821569, guid: 3db3c019f63d65c4582097ae3a17994a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544806888563821569, guid: 3db3c019f63d65c4582097ae3a17994a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.3997601
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544806888563821569, guid: 3db3c019f63d65c4582097ae3a17994a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544806888563821569, guid: 3db3c019f63d65c4582097ae3a17994a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544806888563821569, guid: 3db3c019f63d65c4582097ae3a17994a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -132.87401
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544806888563821569, guid: 3db3c019f63d65c4582097ae3a17994a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3db3c019f63d65c4582097ae3a17994a, type: 3}
 --- !u!1001 &3648537954667582127
 PrefabInstance:
   m_ObjectHideFlags: 0
