@@ -19,9 +19,8 @@ public class SpeechObjectBehavior : MonoBehaviour
 
         speechString = speech;
         this.transform.GetChild(0).GetComponent<Text>().text = speechString;
-
-        this.GetComponent<RectTransform>().position = new Vector3(Random.Range(20, 380), Random.Range(20, 180), Random.Range(-5, 5));
-        this.GetComponent<RectTransform>().sizeDelta = new Vector2(Random.Range(100, 300), Random.Range(40, 100));
+        this.GetComponent<RectTransform>().position = new Vector3(Random.Range(Screen.width*0.1f, Screen.width*0.9f), Random.Range(Screen.height*0.1f, Screen.height*0.9f), Random.Range(-5, 5));
+        this.GetComponent<RectTransform>().sizeDelta = new Vector2(Random.Range(Screen.width * 0.08f, Screen.width * 0.26f), Random.Range(Screen.height * 0.04f, Screen.height * 0.15f));
 
     }
 

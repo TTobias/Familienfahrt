@@ -15,6 +15,19 @@ public static class Language {
     public static string[] tmpWifeSpeech = { "TESTWIFE", "TESTFRAU", "TEST FRAA" };
 
 
+    public static string[] wifeSpeechHappy1 = { "", "", "" };
+    public static string[] wifeSpeechHappy2 = { "", "", "" };
+    public static string[] wifeSpeechHappy3 = { "", "", "" };
+
+    public static string[] wifeSpeechMedium1 = { "", "", "" };
+    public static string[] wifeSpeechMedium2 = { "", "", "" };
+    public static string[] wifeSpeechMedium3 = { "", "", "" };
+    
+    public static string[] wifeSpeechAngry1 = { "", "", "" };
+    public static string[] wifeSpeechAngry2 = { "", "", "" };
+    public static string[] wifeSpeechAngry3 = { "", "", "" };
+
+
     public static string[] startGame = {"Start game", "Spiel starten", "Stard'e ma mo wei"};
     public static string[] LanguageNames = { "English", "Deutsch", "Saarlännich'" };
     public static string[] controls = { "- Car Control: WASD \n- Leftmouse to interact \n- Rightmouse to move cursor freely",
@@ -23,7 +36,13 @@ public static class Language {
     public static string[] story = { "Family Trip",
         "Autofahrt mit der ganzen Familie",
         "N Autofahrd midda gansa Famill'" };
-    public static string[] credits = { "Created by: Kiwi Tobi Jen",
-        "Created by: Kiwi Tobi Jen",
-        "Gemoh'n von em Kiwi, em Tobi un em Jen" };
+    public static string[] credits = { "Created by: Kiwi Tobi (Jen)",
+        "Created by: Kiwi Tobi (Jen)",
+        "Gemoh'n von em Kiwi, em Tobi (un em Jen)" };
+
+
+    public static string[] retryGame = { "Retry", "Erneut versuchen", "Nommo retour" };
+    public static string[] toMenu = { "To the Menu", "Zum Menü", "Ins Meni" };
+    public static string[] score = { "Score: ", "Punktestand: ", "Punkt'stann: " };
+    public static string[] GameOver = { "Game Over \nYour family trip was a disaster", "Game Over \nDein Familienausflug war ein Reinfall", "Game Over \nSo gifft'det wei lo nix mit dem Ausfluch lo" };
 }

@@ -9,8 +9,8 @@ public class StreetPathPoint : MonoBehaviour
     public List<StreetPathPoint> next;
     public float localSpeed = 50f;
 
+    /*
     public bool add = false;
-
     public void Update() {
         if (add) {
             add = false;
@@ -22,5 +22,5 @@ public class StreetPathPoint : MonoBehaviour
         for(int i = 0; i< next.Count; i++) {
             Debug.DrawLine(this.transform.position, next[i].transform.position, Color.red);
         }
-    }
+    }*/
 }
