@@ -15,9 +15,9 @@ public static class Language {
     public static string[] tmpWifeSpeech = { "TESTWIFE", "TESTFRAU", "TEST FRAA" };
 
 
-    public static string[] wifeSpeechHappy1 = { "Please drive careful", "Bitte fahr vorsichtig", "" };
-    public static string[] wifeSpeechHappy2 = { "It's nice to have a family trip together", "Schön so ein Familienausflug, oder?", "" };
-    public static string[] wifeSpeechHappy3 = { "What do you wanna have for dinner, darling?", "Was sollen wir danach zu Abend essen?", "" };
+    public static string[] wifeSpeechHappy1 = { "Please drive careful", "Bitte fahr vorsichtig", "Fahrena aba wei auch vorsichtg" };
+    public static string[] wifeSpeechHappy2 = { "It's nice to have a family trip together", "Schön so ein Familienausflug, oder?", "Eiretlich n guddn tach um zu schwenken, net?" };
+    public static string[] wifeSpeechHappy3 = { "What do you wanna have for dinner, darling?", "Was sollen wir danach zu Abend essen?", "Hole ma nachher nochn Fleischkäsweck?" };
 
     public static string[] wifeSpeechMedium1 = { "Don't drive that fast!", "Nicht so schnell fahren", "" };
     public static string[] wifeSpeechMedium2 = { "No such risky maneuvers please...", "Mit fahr doch weniger riskant", "" };
