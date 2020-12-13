@@ -89,7 +89,7 @@ public class MoodCalculator : MonoBehaviour {
     }
 
     public void showMoodGUI() {
-        moodInspector.text = "Mood  \nBoy : " + (int)boy_mood + "\nGirl: " + (int)girl_mood + "\nWife: " + (int)wife_mood;
+        moodInspector.text = "Mood  \n"+(int)mood;
     }
 
 
@@ -100,7 +100,7 @@ public class MoodCalculator : MonoBehaviour {
 
 
     public void girlEvents() {
-        if(Random.Range(0f,10000f) < girlSpeechChance + girlSpeechChance * (100f / girl_mood) * 0.3f) {
+        if(Random.Range(0f,10000f) < girlSpeechChance + girlSpeechChance * (100f / mood) * 0.3f) {
             if(mood > 70) {
                 int r = (int)Mathf.Floor(Random.Range(0f, 2.99f) );
                 if( r == 0) {
@@ -154,7 +154,7 @@ public class MoodCalculator : MonoBehaviour {
 
     }
     public void boyEvents() {
-        if (Random.Range(0f, 10000f) < boySpeechChance + boySpeechChance * (100f / boy_mood) * 0.3f) {
+        if (Random.Range(0f, 10000f) < boySpeechChance + boySpeechChance * (100f / mood) * 0.3f) {
 
 
             if (mood > 70) {
@@ -210,7 +210,7 @@ public class MoodCalculator : MonoBehaviour {
 
     }
     public void wifeEvents() {
-        if (Random.Range(0f, 10000f) < wifeSpeechChance + wifeSpeechChance * (100f / wife_mood) * 0.3f) {
+        if (Random.Range(0f, 10000f) < wifeSpeechChance + wifeSpeechChance * (100f / mood) * 0.3f) {
 
             if (mood > 70) {
                 int r = (int)Mathf.Floor(Random.Range(0f, 2.99f));
