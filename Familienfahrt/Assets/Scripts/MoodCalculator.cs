@@ -63,10 +63,12 @@ public class MoodCalculator : MonoBehaviour {
     [Header("Mood")]
 
     public Text moodInspector;
-
+    public float mood = 100f;
+    /*
     public float boy_mood = 100f;
     public float girl_mood = 100f;
     public float wife_mood = 100f;
+    */
 
     public int moodCooldown = 100;
     public void DefaultMoodDecline() {
@@ -74,10 +76,13 @@ public class MoodCalculator : MonoBehaviour {
         if (moodCooldown < 0) {
             moodCooldown = 100;
 
+            mood -= 0.5f;
+
+            /*
             boy_mood -= 0.5f;
             girl_mood -= 0.5f;
             wife_mood -= 0.3f;
-
+            */
 
             score += 1;
         }
@@ -96,19 +101,166 @@ public class MoodCalculator : MonoBehaviour {
 
     public void girlEvents() {
         if(Random.Range(0f,10000f) < girlSpeechChance + girlSpeechChance * (100f / girl_mood) * 0.3f) {
-            createSpeechObject(Language.getText(Language.tmpGirlSpeech));
+            if(mood > 70) {
+                int r = (int)Mathf.Floor(Random.Range(0f, 2.99f) );
+                if( r == 0) {
+                    createSpeechObject(Language.getText(Language.girlSpeechHappy1));
+                }else if (r == 1) {
+                    createSpeechObject(Language.getText(Language.girlSpeechHappy2));
+                }
+                else {
+                    createSpeechObject(Language.getText(Language.girlSpeechHappy3));
+                }
+            }
+            else if(mood > 40) {
+                int r = (int)Mathf.Floor(Random.Range(0f, 3.99f) );
+                if (r == 0) {
+                    createSpeechObject(Language.getText(Language.girlSpeechMedium1));
+                }
+                else if (r == 1) {
+                    createSpeechObject(Language.getText(Language.girlSpeechMedium2));
+                }
+                else if (r == 2) {
+                    createSpeechObject(Language.getText(Language.girlSpeechMedium3));
+                }
+                else {
+                    createSpeechObject(Language.getText(Language.girlSpeechMedium4));
+                }
+            }
+            else {
+                int r = (int) Mathf.Floor( Random.Range(0f, 5.99f) );
+                if (r == 0) {
+                    createSpeechObject(Language.getText(Language.girlSpeechAngry1));
+                }
+                else if (r == 1) {
+                    createSpeechObject(Language.getText(Language.girlSpeechAngry2));
+                }
+                else if (r == 2) {
+                    createSpeechObject(Language.getText(Language.girlSpeechAngry3));
+                }
+                else if (r == 3) {
+                    createSpeechObject(Language.getText(Language.girlSpeechAngry4));
+                }
+                else if (r == 4) {
+                    createSpeechObject(Language.getText(Language.girlSpeechAngry5));
+                }
+                else {
+                    createSpeechObject(Language.getText(Language.girlSpeechAngry6));
+                }
+            }
+
+
         }
 
     }
     public void boyEvents() {
         if (Random.Range(0f, 10000f) < boySpeechChance + boySpeechChance * (100f / boy_mood) * 0.3f) {
-            createSpeechObject(Language.getText(Language.tmpBoySpeech));
+
+
+            if (mood > 70) {
+                int r = (int)Mathf.Floor(Random.Range(0f, 2.99f));
+                if (r == 0) {
+                    createSpeechObject(Language.getText(Language.boySpeechHappy1));
+                }
+                else if (r == 1) {
+                    createSpeechObject(Language.getText(Language.boySpeechHappy2));
+                }
+                else {
+                    createSpeechObject(Language.getText(Language.boySpeechHappy3));
+                }
+            }
+            else if (mood > 40) {
+                int r = (int)Mathf.Floor(Random.Range(0f, 3.99f));
+                if (r == 0) {
+                    createSpeechObject(Language.getText(Language.boySpeechMedium1));
+                }
+                else if (r == 1) {
+                    createSpeechObject(Language.getText(Language.boySpeechMedium2));
+                }
+                else if (r == 2) {
+                    createSpeechObject(Language.getText(Language.boySpeechMedium3));
+                }
+                else {
+                    createSpeechObject(Language.getText(Language.boySpeechMedium4));
+                }
+            }
+            else {
+                int r = (int)Mathf.Floor(Random.Range(0f, 5.99f));
+                if (r == 0) {
+                    createSpeechObject(Language.getText(Language.boySpeechAngry1));
+                }
+                else if (r == 1) {
+                    createSpeechObject(Language.getText(Language.boySpeechAngry2));
+                }
+                else if (r == 2) {
+                    createSpeechObject(Language.getText(Language.boySpeechAngry3));
+                }
+                else if (r == 3) {
+                    createSpeechObject(Language.getText(Language.boySpeechAngry4));
+                }
+                else if (r == 4) {
+                    createSpeechObject(Language.getText(Language.boySpeechAngry5));
+                }
+                else {
+                    createSpeechObject(Language.getText(Language.boySpeechAngry6));
+                }
+            }
+
         }
 
     }
     public void wifeEvents() {
         if (Random.Range(0f, 10000f) < wifeSpeechChance + wifeSpeechChance * (100f / wife_mood) * 0.3f) {
-            createSpeechObject(Language.getText(Language.tmpWifeSpeech));
+
+            if (mood > 70) {
+                int r = (int)Mathf.Floor(Random.Range(0f, 2.99f));
+                if (r == 0) {
+                    createSpeechObject(Language.getText(Language.wifeSpeechHappy1));
+                }
+                else if (r == 1) {
+                    createSpeechObject(Language.getText(Language.wifeSpeechHappy2));
+                }
+                else {
+                    createSpeechObject(Language.getText(Language.wifeSpeechHappy3));
+                }
+            }
+            else if (mood > 40) {
+                int r = (int)Mathf.Floor(Random.Range(0f, 3.99f));
+                if (r == 0) {
+                    createSpeechObject(Language.getText(Language.wifeSpeechMedium1));
+                }
+                else if (r == 1) {
+                    createSpeechObject(Language.getText(Language.wifeSpeechMedium2));
+                }
+                else if (r == 2) {
+                    createSpeechObject(Language.getText(Language.wifeSpeechMedium3));
+                }
+                else {
+                    createSpeechObject(Language.getText(Language.wifeSpeechMedium4));
+                }
+            }
+            else {
+                int r = (int)Mathf.Floor(Random.Range(0f, 5.99f));
+                if (r == 0) {
+                    createSpeechObject(Language.getText(Language.wifeSpeechAngry1));
+                }
+                else if (r == 1) {
+                    createSpeechObject(Language.getText(Language.wifeSpeechAngry2));
+                }
+                else if (r == 2) {
+                    createSpeechObject(Language.getText(Language.wifeSpeechAngry3));
+                }
+                else if (r == 3) {
+                    createSpeechObject(Language.getText(Language.wifeSpeechAngry4));
+                }
+                else if (r == 4) {
+                    createSpeechObject(Language.getText(Language.wifeSpeechAngry5));
+                }
+                else {
+                    createSpeechObject(Language.getText(Language.wifeSpeechAngry6));
+                }
+            }
+
         }
 
     }
