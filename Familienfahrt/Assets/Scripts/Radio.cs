@@ -7,11 +7,15 @@ using UnityEngine.EventSystems;
 public class Radio : MonoBehaviour
 {
     public AudioClip[] clips;
+    public AudioClip[] announcerClips;
+    public AudioClip tuneNoise;
     public TMPro.TextMeshProUGUI hoverText;
+    public float announcerDelay = 1.5f;
     Ray ray;
     RaycastHit hit;
     State state = State.None;
     AudioSource aSource;
+    public AudioSource audioSourceAnnouncer;
 
 
     // Start is called before the first frame update
@@ -59,6 +63,7 @@ public class Radio : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && state == State.Over)
         {
             PlayRandomSong();
+            aSource.PlayOneShot(tuneNoise);
         }
 
         if (!aSource.isPlaying)
@@ -69,8 +74,16 @@ public class Radio : MonoBehaviour
 
     void PlayRandomSong ()
     {
+        audioSourceAnnouncer.Stop();
         aSource.Stop();
         aSource.PlayOneShot(clips[Random.Range(0, clips.Length)]);
+        StartCoroutine("PlayAnnouncer");
+    }
+
+    IEnumerator PlayAnnouncer()
+    {
+        yield return new WaitForSeconds(announcerDelay);
+        audioSourceAnnouncer.PlayOneShot(announcerClips[Random.Range(0, announcerClips.Length)]);
     }
 
     enum State

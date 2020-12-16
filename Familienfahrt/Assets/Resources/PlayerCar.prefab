@@ -756,9 +756,9 @@ GameObject:
   - component: {fileID: 3266389597728230196}
   - component: {fileID: 3266389597729000212}
   - component: {fileID: 3266389597729999316}
+  - component: {fileID: 173894417}
   - component: {fileID: 173894413}
   - component: {fileID: 173894418}
-  - component: {fileID: 173894417}
   m_Layer: 0
   m_Name: RadioNextButton
   m_TagString: Untagged
@@ -826,6 +826,40 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &173894417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3266389597727807252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97400230492689d41bacc42b8ae77836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 4c955d0d7b5416c4d8b2b1dd7440d088, type: 3}
+  - {fileID: 8300000, guid: 817836b4fe5c8774f85c79f2f385349c, type: 3}
+  - {fileID: 8300000, guid: 6004867ea4225cb4ca6bf1cd4bba38c4, type: 3}
+  - {fileID: 8300000, guid: 8b4631807cd8d4c479808876df9dbaa4, type: 3}
+  - {fileID: 8300000, guid: 56efaa7a191586246b7a542d8994d15e, type: 3}
+  - {fileID: 8300000, guid: 6f79fd94fab8d424c95eb3e126320881, type: 3}
+  announcerClips:
+  - {fileID: 8300000, guid: f9cb00ba0ffaf6441a96928034cce0bc, type: 3}
+  - {fileID: 8300000, guid: d5c9904eb0f81814b8fbf722e8f9314d, type: 3}
+  - {fileID: 8300000, guid: b291c2162e033ad4ba8ca3c009ca33ea, type: 3}
+  - {fileID: 8300000, guid: df5f8334b22507c47b12bb879af04d27, type: 3}
+  - {fileID: 8300000, guid: 4264cac6625fdf14aa8d3e32768b66b1, type: 3}
+  - {fileID: 8300000, guid: 48b750a4ed1b8a84c92e41bf6f30d775, type: 3}
+  - {fileID: 8300000, guid: 66a57951bf5614441bc7a4b06e5c54a9, type: 3}
+  - {fileID: 8300000, guid: 52d253c8ada90034e86619d06993540f, type: 3}
+  - {fileID: 8300000, guid: 507f0f12f8f6d094f91cd8b60f02f7ff, type: 3}
+  - {fileID: 8300000, guid: e5000c1e0ae220a4491c066ad1ff7c72, type: 3}
+  tuneNoise: {fileID: 8300000, guid: 7a73101a17b55784eada59055c6e941c, type: 3}
+  hoverText: {fileID: 100206114}
+  announcerDelay: 3
+  audioSourceAnnouncer: {fileID: 470107707}
 --- !u!65 &173894413
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -936,21 +970,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &173894417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3266389597727807252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97400230492689d41bacc42b8ae77836, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clips:
-  - {fileID: 8300000, guid: c2b882255c6fed748b56d5b61699b8ed, type: 3}
-  hoverText: {fileID: 100206114}
 --- !u!1 &3266389597727807254
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,6 +981,7 @@ GameObject:
   - component: {fileID: 3266389597728230198}
   - component: {fileID: 3266389597729000214}
   - component: {fileID: 3266389597729999318}
+  - component: {fileID: 470107707}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -1029,6 +1049,103 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!82 &470107707
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3266389597727807254}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243772718894692884, guid: 8b25dddc9a9581546977be20f67208de,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &4243805869514739941
 GameObject:
   m_ObjectHideFlags: 0
