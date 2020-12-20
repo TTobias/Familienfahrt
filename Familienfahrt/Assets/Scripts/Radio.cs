@@ -48,7 +48,7 @@ public class Radio : MonoBehaviour
                     if (!(hit.collider.name == "RadioNextButton"))
                     {
                         state = State.None;
-                        hoverText.gameObject.SetActive(false);
+                        hoverText.gameObject.SetActive(false) ;
                     }
                 }
                 break;

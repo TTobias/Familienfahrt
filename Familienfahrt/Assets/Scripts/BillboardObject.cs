@@ -13,6 +13,6 @@ public class BillboardObject : MonoBehaviour
 
     void FixedUpdate()
     {
-        transform.LookAt(main.transform.position, Vector3.up);
+        transform.LookAt(main.transform.position, Vector3.up );
     }
 }

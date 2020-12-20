@@ -52,7 +52,7 @@ public class InteractiveHonk : MonoBehaviour
                 ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 if (Physics.Raycast(ray, out hit))
                 {
-                    if (!(hit.collider.name == "HONK"))
+                    if (!(hit.collider.name == "HONK" ))
                     {
                         state = State.None;
                         hoverText.gameObject.SetActive(false);
