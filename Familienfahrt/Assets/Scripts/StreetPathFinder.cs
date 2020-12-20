@@ -8,6 +8,12 @@ public class StreetPathFinder : MonoBehaviour
     public float rotationSpeed = 10f;
     public float speed = 50f;
 
+    public bool isTruck = false;
+
+    public void Start() {
+        
+    }
+
 
     Vector3 tmpDir;
     Quaternion tmpRot;
