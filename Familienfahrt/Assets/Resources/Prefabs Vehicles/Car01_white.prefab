@@ -169,6 +169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6135264691653877182}
+  - component: {fileID: 6646160937960040770}
   m_Layer: 0
   m_Name: Car01_white
   m_TagString: Untagged
@@ -195,6 +196,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &6646160937960040770
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3405755914960067623}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.7412587, z: 0.009588718}
+  m_Size: 4.4388986
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.0951
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4948047836394754531}
+    - renderer: {fileID: 6845159160340773381}
+    - renderer: {fileID: 5913868176960432637}
+    - renderer: {fileID: 7850455778807235607}
+    - renderer: {fileID: 3366747156228542352}
+  m_Enabled: 1
 --- !u!1 &3716619822053491194
 GameObject:
   m_ObjectHideFlags: 0

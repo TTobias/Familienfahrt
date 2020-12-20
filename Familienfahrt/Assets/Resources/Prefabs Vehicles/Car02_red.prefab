@@ -247,6 +247,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1581753467889201638}
+  - component: {fileID: 5039155215814506411}
   m_Layer: 0
   m_Name: Car02_red
   m_TagString: Untagged
@@ -273,6 +274,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &5039155215814506411
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581753467888774598}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.7478814, z: 0.009588718}
+  m_Size: 4.4388986
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.0951
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1581753467890971396}
+    - renderer: {fileID: 1581753467890971398}
+    - renderer: {fileID: 1581753467890971392}
+    - renderer: {fileID: 1581753467890971394}
+    - renderer: {fileID: 1581753467890971404}
+  m_Enabled: 1
 --- !u!1 &1581753467888774604
 GameObject:
   m_ObjectHideFlags: 0

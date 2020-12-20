@@ -477,8 +477,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3445575536140134162}
+  - component: {fileID: 8276270632976706372}
   m_Layer: 0
-  m_Name: lkw
+  m_Name: NukaCola
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -510,6 +511,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &8276270632976706372
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3445575536140565298}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 1.8999993, z: -6.448372}
+  m_Size: 15.197264
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.19702499
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3445575536138364406}
+    - renderer: {fileID: 3445575536138364404}
+    - renderer: {fileID: 3445575536138364402}
+    - renderer: {fileID: 3445575536138364400}
+    - renderer: {fileID: 3445575536138364414}
+    - renderer: {fileID: 3445575536138364412}
+    - renderer: {fileID: 3445575536138364410}
+    - renderer: {fileID: 3445575536138364408}
+    - renderer: {fileID: 3445575536138364390}
+    - renderer: {fileID: 3445575536138364388}
+    - renderer: {fileID: 3445575536138364386}
+    - renderer: {fileID: 3445575536138364384}
+  m_Enabled: 1
 --- !u!1 &3445575536140565300
 GameObject:
   m_ObjectHideFlags: 0

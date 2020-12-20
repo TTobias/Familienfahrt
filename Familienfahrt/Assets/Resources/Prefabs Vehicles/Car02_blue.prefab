@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9219596366350436784}
+  - component: {fileID: 169317550638428178}
   m_Layer: 0
   m_Name: Car02_blue
   m_TagString: Untagged
@@ -35,6 +36,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &169317550638428178
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9219596366350341520}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.7478814, z: 0.009588718}
+  m_Size: 4.4388986
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.0951
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 9219596366352337746}
+    - renderer: {fileID: 9219596366352337744}
+    - renderer: {fileID: 9219596366352337750}
+    - renderer: {fileID: 9219596366352337748}
+    - renderer: {fileID: 9219596366352337754}
+  m_Enabled: 1
 --- !u!1 &9219596366350341522
 GameObject:
   m_ObjectHideFlags: 0

@@ -869,8 +869,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6066151217512946941}
+  - component: {fileID: 175632184045595226}
   m_Layer: 0
-  m_Name: lkw
+  m_Name: DHLate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -902,6 +903,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &175632184045595226
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6066151217513234653}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 1.8999993, z: -6.448372}
+  m_Size: 15.197264
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.19702499
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6066151217511046681}
+    - renderer: {fileID: 6066151217511046683}
+    - renderer: {fileID: 6066151217511046685}
+    - renderer: {fileID: 6066151217511046687}
+    - renderer: {fileID: 6066151217511046673}
+    - renderer: {fileID: 6066151217511046675}
+    - renderer: {fileID: 6066151217511046677}
+    - renderer: {fileID: 6066151217511046679}
+    - renderer: {fileID: 6066151217511046665}
+    - renderer: {fileID: 6066151217511046667}
+    - renderer: {fileID: 6066151217511046669}
+    - renderer: {fileID: 6066151217511046671}
+  m_Enabled: 1
 --- !u!1 &6066151217513234655
 GameObject:
   m_ObjectHideFlags: 0

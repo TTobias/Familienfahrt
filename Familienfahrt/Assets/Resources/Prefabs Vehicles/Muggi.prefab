@@ -789,8 +789,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2703523698223227963}
+  - component: {fileID: 2866064358761835337}
   m_Layer: 0
-  m_Name: lkw
+  m_Name: Muggi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -822,6 +823,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &2866064358761835337
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2703523698223462427}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 1.8999993, z: -6.448372}
+  m_Size: 15.197264
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.19702499
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2703523698221459167}
+    - renderer: {fileID: 2703523698221459165}
+    - renderer: {fileID: 2703523698221459163}
+    - renderer: {fileID: 2703523698221459161}
+    - renderer: {fileID: 2703523698221459159}
+    - renderer: {fileID: 2703523698221459157}
+    - renderer: {fileID: 2703523698221459155}
+    - renderer: {fileID: 2703523698221459153}
+    - renderer: {fileID: 2703523698221459151}
+    - renderer: {fileID: 2703523698221459149}
+    - renderer: {fileID: 2703523698221459147}
+    - renderer: {fileID: 2703523698221459145}
+  m_Enabled: 1
 --- !u!1 &2703523698223462429
 GameObject:
   m_ObjectHideFlags: 0
