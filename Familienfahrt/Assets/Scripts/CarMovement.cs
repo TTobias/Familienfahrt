@@ -7,7 +7,7 @@ public class CarMovement : MonoBehaviour {
 
     public Transform car;
     public float speed = 0f;
-    public float maxSpeed = 15f;
+    public float maxSpeed = 18f;
     public float acceleration = 0.3f;
 
     public string speedText = "";

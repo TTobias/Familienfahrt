@@ -16,7 +16,7 @@ public static class Language {
 
 
     public static string[] wifeSpeechHappy1 = { "Please drive careful", "Bitte fahr vorsichtig", "Fahrena aba wei auch vorsichtg" };
-    public static string[] wifeSpeechHappy2 = { "It's nice to have a family trip together", "Schön so ein Familienausflug, oder?", "Eiretlich n guddn tach um zu schwenken, net?" };
+    public static string[] wifeSpeechHappy2 = { "It's nice to have a family trip together", "Schön so ein Familienausflug, oder?", "Eiretlich n guddn tach um zu schwenke, net?" };
     public static string[] wifeSpeechHappy3 = { "What do you wanna have for dinner, darling?", "Was sollen wir danach zu Abend essen?", "Hole ma nachher nochn Fleischkäsweck?" };
 
     public static string[] wifeSpeechMedium1 = { "Don't drive that fast!", "Nicht so schnell fahren", "" };
@@ -49,21 +49,21 @@ public static class Language {
     public static string[] girlSpeechAngry6 = { "...", "...", "Unn nu?" };
 
 
-    public static string[] boySpeechHappy1 = { "Nice to see you have some time for us", "", "" };
-    public static string[] boySpeechHappy2 = { "Great weather today, ain't it?", "", "" };
-    public static string[] boySpeechHappy3 = { "We should repeat this somewhen", "", "" };
+    public static string[] boySpeechHappy1 = { "Nice to see you have some time for us", "Schön das wir zusammen etwas unternehmen", "" };
+    public static string[] boySpeechHappy2 = { "Great weather today, ain't it?", "Tolles Wetter heute, stimmts?", "Haut schent die Sonn mo widda gudd" };
+    public static string[] boySpeechHappy3 = { "We should repeat this somewhen", "Wir sollten das irgendwann mal wiederholen", "So eppes könnte mir mo wiederhole" };
 
-    public static string[] boySpeechMedium1 = { "This is boring", "", "" };
-    public static string[] boySpeechMedium2 = { "I'm in a bad mood now", "", "" };
-    public static string[] boySpeechMedium3 = { "Lets grab sth to eat", "", "" };
-    public static string[] boySpeechMedium4 = { "Some Lyoner would be good now", "", "" };
+    public static string[] boySpeechMedium1 = { "This is boring", "Das hier ist öde", "Passiert wei bald mo was?" };
+    public static string[] boySpeechMedium2 = { "I'm in a bad mood now", "Lass mich doch einfach in Ruhe.", "O wei is ma gudd" };
+    public static string[] boySpeechMedium3 = { "Lets grab sth to eat", "Lass uns etwas essen gehen.", "Esse ma wei mo eppes?" };
+    public static string[] boySpeechMedium4 = { "Some Sausages would be good now", "Jetzt ein Paar Würstchen wären fein", "Habe ma noch'n pa Lyoner lo liege?" };
 
-    public static string[] boySpeechAngry1 = { "I'd prefer to stay at home next time", "", "" };
-    public static string[] boySpeechAngry2 = { "Can we grab sth to eat?", "", "" };
-    public static string[] boySpeechAngry3 = { "I'm hungry", "", "" };
-    public static string[] boySpeechAngry4 = { "Just try not to crash the car", "Bau doch einfach keine Unfälle", "" };
+    public static string[] boySpeechAngry1 = { "I'd prefer to stay at home next time", "Nächstes mal bleibe ich lieber daheim", "Nächst mol lassen'a mich bessa dahemm" };
+    public static string[] boySpeechAngry2 = { "Can we grab sth to eat?", "Können wir nicht ewtas essen?", "Ich braachn n Fleischkäsweck. Aber dappa" };
+    public static string[] boySpeechAngry3 = { "I'm hungry", "Ich bin hungrig...", "Hauptsach gudd gess? Bei uns ja wei net" };
+    public static string[] boySpeechAngry4 = { "Just try not to crash the car", "Bau doch einfach keine Unfälle", "O wei passn awa auch mo uff" };
     public static string[] boySpeechAngry5 = { "I wanna get home now", "Ich will nach Hause", "Eich wolln hemm" };
-    public static string[] boySpeechAngry6 = { "Thats annoying", "Das nervt total", "" };
+    public static string[] boySpeechAngry6 = { "Thats annoying", "Das nervt total", "O wei her abba mol uff" };
 
 
     public static string[] startGame = {"Start game", "Spiel starten", "Stard'e ma mo wei"};
