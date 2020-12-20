@@ -43,7 +43,7 @@ public class LyonerObject : MonoBehaviour
         }
         else {
             if(cooldown > 0) {
-                cooldown -= Time.deltaTime * 5f;
+                cooldown -= Time.fixedDeltaTime * 5f;
             }
             else {
                 isSpecial = Random.Range(0f, 10f) > 9f;
