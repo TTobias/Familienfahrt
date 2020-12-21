@@ -43,7 +43,7 @@ public class StreetPathFinder : MonoBehaviour
         this.transform.rotation = Quaternion.Slerp(transform.rotation, tmpRot, Time.deltaTime * rotationSpeed);
 
         //Move
-        this.transform.position += this.transform.forward * Time.deltaTime * speed * 0.5f;
+        this.transform.position += this.transform.forward * Time.deltaTime * speed * 0.4f;
 
         if(Vector3.Distance (targetPathPoint.transform.position, this.transform.position) < 5f) {
             targetPathPoint = targetPathPoint.next[(int)Random.Range(0, targetPathPoint.next.Count - 0.001f)];

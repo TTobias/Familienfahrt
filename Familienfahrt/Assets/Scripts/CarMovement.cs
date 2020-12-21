@@ -36,7 +36,25 @@ public class CarMovement : MonoBehaviour {
     }
 
     public void rotate() {
-        float tmpRotationStrength = rotationStrength * 0.6f + rotationStrength * 0.4f * (maxSpeed / speed );    
-        car.transform.rotation = car.transform.rotation * Quaternion.Euler(0f, Input.GetAxis("Horizontal") * rotationStrength, 0f);
+        float tmpRotationStrength = rotationStrength * 0.6f + rotationStrength * 0.4f * (maxSpeed / speed );
+
+        float tmpX = 0f;
+        float tmpZ = 0f;
+
+        if(car.rotation.eulerAngles.x > 60f) {
+            tmpX = -1.5f;
+        }
+        if (car.rotation.eulerAngles.x < -60f) {
+            tmpX =  1.5f;
+        }
+        if (car.rotation.eulerAngles.z > 60f) {
+            tmpZ = -1.5f;
+        }
+        if (car.rotation.eulerAngles.z < -60f) {
+            tmpZ =  1.5f;
+        }
+
+
+        car.transform.rotation = car.transform.rotation * Quaternion.Euler(tmpX, Input.GetAxis("Horizontal") * rotationStrength, tmpZ); 
     }
 }
