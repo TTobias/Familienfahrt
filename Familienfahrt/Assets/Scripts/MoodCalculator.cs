@@ -3,11 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Cinemachine;
 
 public class MoodCalculator : MonoBehaviour {
 
     public int score = 0;
     public Text scoreText;
+
+    public GameObject boom;
+    public CinemachineVirtualCamera deathCam;
+    public GameObject gui;
+    public Rigidbody body;
+    public AudioSource aSource;
+    public AudioClip megaBoomClip;
+    public AudioClip ohNoClip;
 
 
     [Header("Game Over")]
@@ -23,6 +32,7 @@ public class MoodCalculator : MonoBehaviour {
             showMoodGUI();
             EventManagement();
             showScore();
+            CheckMoodType();
         }
 
 
@@ -59,6 +69,8 @@ public class MoodCalculator : MonoBehaviour {
     }
 
     public void gameIsOver() {
+        if (gameOver == true)
+            return;
         gameOver = true;
 
         gameOverLay.SetActive(true);
@@ -66,6 +78,24 @@ public class MoodCalculator : MonoBehaviour {
         gameOverLay.transform.GetChild(1).GetComponent<Text>().text = Language.getText(Language.score) + score;
         gameOverLay.transform.GetChild(2).GetChild(0).GetComponent<Text>().text = Language.getText(Language.retryGame);
         gameOverLay.transform.GetChild(3).GetChild(0).GetComponent<Text>().text = Language.getText(Language.toMenu);
+        StartCoroutine("Boom");
+    }
+
+    IEnumerator Boom ()
+    {
+        deathCam.Priority = 99999999;
+        gui.SetActive(false);
+        yield return new WaitForSeconds(1.5f);
+        body.mass = 20f;
+        GameObject.Instantiate(boom, transform.position, Quaternion.identity);
+        body.AddExplosionForce(4000f, new Vector3(transform.position.x, transform.position.y -1f, transform.position.z-.3f), 5f);
+        aSource.PlayOneShot(megaBoomClip);
+        aSource.PlayOneShot(ohNoClip);
+        yield return new WaitForSeconds(5.5f);
+        GameObject.Instantiate(boom, transform.position, Quaternion.identity);
+        body.AddExplosionForce(60000f, new Vector3(transform.position.x, transform.position.y - 1f, transform.position.z+.3f), 5f);
+        body.angularVelocity = new Vector3(Random.Range(0f, 5f), Random.Range(0f, 5f), Random.Range(0f, 5f)) ;
+        aSource.PlayOneShot(megaBoomClip);
     }
 
 
@@ -73,6 +103,12 @@ public class MoodCalculator : MonoBehaviour {
 
     public Text moodInspector;
     public float mood = 100f;
+
+    public Image iHappy;
+    public Image iNeutral;
+    public Image iAnnoyed;
+
+    private MoodType lastMood = MoodType.Init;
     /*
     public float boy_mood = 100f;
     public float girl_mood = 100f;
@@ -98,7 +134,51 @@ public class MoodCalculator : MonoBehaviour {
     }
 
     public void showMoodGUI() {
-        moodInspector.text = "Mood  \n"+(int)mood;
+        //moodInspector.text = "Mood  \n"+(int)mood;
+        moodInspector.text = "" + (int)mood;
+    }
+
+    public void CheckMoodType()
+    {
+        MoodType curMood = MoodType.Init;
+
+        if (mood >= 70f)
+            curMood = MoodType.Happy;
+        else if (mood >= 40f)
+            curMood = MoodType.Neutral;
+        else
+            curMood = MoodType.Annoyed;
+
+        if (curMood != lastMood)
+        {
+            switch (curMood)
+            {
+                case MoodType.Happy:
+                    iHappy.gameObject.SetActive(true);
+                    iNeutral.gameObject.SetActive(false);
+                    iAnnoyed.gameObject.SetActive(false);
+                    break;
+                case MoodType.Neutral:
+                    iHappy.gameObject.SetActive(false);
+                    iNeutral.gameObject.SetActive(true);
+                    iAnnoyed.gameObject.SetActive(false);
+                    break;
+                case MoodType.Annoyed:
+                    iHappy.gameObject.SetActive(false);
+                    iNeutral.gameObject.SetActive(false);
+                    iAnnoyed.gameObject.SetActive(true);
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        lastMood = curMood;
+    }
+
+    enum MoodType
+    {
+        Init, Happy, Neutral, Annoyed
     }
 
 

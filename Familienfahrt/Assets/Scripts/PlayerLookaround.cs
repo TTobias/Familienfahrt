@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class PlayerLookaround : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class PlayerLookaround : MonoBehaviour
     public float sensitivity = 100f;
     public Transform playerBody;
     public Camera cam;
+    public CinemachineVirtualCamera vcam;
 
     public MoodCalculator mood;
 
@@ -50,7 +52,8 @@ public class PlayerLookaround : MonoBehaviour
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        cam.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        //cam.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        vcam.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
     }
 

@@ -18,6 +18,6 @@ public class SpeedPitch : MonoBehaviour
     {
         if (cm == null) return;
 
-        aSource.pitch = Mathf.Lerp(.5f, 1.8f, cm.speed / cm.maxSpeed );
+        aSource.pitch = Mathf.Lerp(.5f, 2f, cm.speed / cm.maxSpeed );
     }
 }
