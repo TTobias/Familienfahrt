@@ -6,7 +6,7 @@ using Cinemachine;
 public class PlayerLookaround : MonoBehaviour
 {
     ///Camera
-    public float sensitivity = 100f;
+    public static float sensitivity = 100f;
     public Transform playerBody;
     public Camera cam;
     public CinemachineVirtualCamera vcam;

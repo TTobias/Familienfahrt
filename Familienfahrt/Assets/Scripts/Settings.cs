@@ -59,6 +59,11 @@ public class Settings : MonoBehaviour
     {
         mixer.SetFloat("Radio Volume", level);
     }
+    public void SetMouseSensitivity(float level)
+    {
+        //mixer.SetFloat("Radio Volume", level);
+        PlayerLookaround.sensitivity = level;
+    }
 
     enum State
     {
