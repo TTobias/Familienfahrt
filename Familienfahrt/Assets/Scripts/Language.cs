@@ -36,7 +36,7 @@ public static class Language {
     public static string[] girlSpeechHappy2 = { "... and then when we came from school ... and they told ... great day ...", "", "" };
     public static string[] girlSpeechHappy3 = { "Let's make a picknick somwhere ^^", "", "" };
 
-    public static string[] girlSpeechMedium1 = { "When will we arrive?", "", "" };
+    public static string[] girlSpeechMedium1 = { "When will we arrive?", "... Wie lange noch?", "..." };
     public static string[] girlSpeechMedium2 = { "How long will this keep going?", "Wie lange soll das noch weitergehen?", "" };
     public static string[] girlSpeechMedium3 = { "I am bored", "Mir ist langweilig", "Ich krinn noch dir Freck" };
     public static string[] girlSpeechMedium4 = { "My brother is getting on my nerves again.", "Mein Bruder ärgert mich wieder", "Es Bibbche hier versucht wei mich zu ärgere" };
