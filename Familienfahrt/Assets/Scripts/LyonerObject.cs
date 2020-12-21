@@ -15,6 +15,8 @@ public class LyonerObject : MonoBehaviour
 
     public bool isSpecial = false;
     public bool exists = false;
+
+    public AudioSource munchSource;
     
     public void FixedUpdate() {
         if (exists) {
@@ -28,6 +30,7 @@ public class LyonerObject : MonoBehaviour
                     mood.mood += 10;
                 }
 
+                munchSource.Play();
                 exists = false;
                 cooldown = cooldownMax;
                 lyoner.SetActive(false);
