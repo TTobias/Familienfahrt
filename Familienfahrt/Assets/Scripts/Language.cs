@@ -41,7 +41,7 @@ public static class Language {
     public static string[] girlSpeechMedium3 = { "I am bored", "", "" };
     public static string[] girlSpeechMedium4 = { "My brother is getting on my nerves again.", "", "" };
 
-    public static string[] girlSpeechAngry1 = { "Can't we drive home now?", "", "" };
+    public static string[] girlSpeechAngry1 = { "Can't we drive home now?", "Können wir heimfahren?", "Geht et wei hemm?" };
     public static string[] girlSpeechAngry2 = { "I don't enjoy this anymore", "", "" };
     public static string[] girlSpeechAngry3 = { "This is a horrible family trip", "", "" };
     public static string[] girlSpeechAngry4 = { "Just admit that we got lost.", "", "" };

@@ -41,20 +41,6 @@ public class CarMovement : MonoBehaviour {
         float tmpX = 0f;
         float tmpZ = 0f;
 
-        if(car.rotation.eulerAngles.x > 60f) {
-            tmpX = -1.5f;
-        }
-        if (car.rotation.eulerAngles.x < -60f) {
-            tmpX =  1.5f;
-        }
-        if (car.rotation.eulerAngles.z > 60f) {
-            tmpZ = -1.5f;
-        }
-        if (car.rotation.eulerAngles.z < -60f) {
-            tmpZ =  1.5f;
-        }
-
-
         car.transform.rotation = car.transform.rotation * Quaternion.Euler(tmpX, Input.GetAxis("Horizontal") * rotationStrength, tmpZ); 
     }
 }
