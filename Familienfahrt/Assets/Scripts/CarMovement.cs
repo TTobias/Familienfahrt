@@ -15,6 +15,9 @@ public class CarMovement : MonoBehaviour {
 
     public float rotationStrength = 3f;
 
+    public MoodCalculator mood;
+    public float crashCounter = 0f;
+
     public void Start() {
         car = this.transform;
     }
@@ -24,6 +27,11 @@ public class CarMovement : MonoBehaviour {
         text.text = speedText;
         move();
         rotate();
+
+
+        if( crashCounter > 350f) {
+            mood.carCrashed();
+        }
     }
 
     public void move() {
@@ -32,7 +40,15 @@ public class CarMovement : MonoBehaviour {
         speed += acceleration * tmp * Time.deltaTime;
         if (speed > maxSpeed) speed = maxSpeed;
         if (speed < 0) speed = 0;
-        car.transform.position += car.transform.forward * Time.fixedDeltaTime * speed;
+
+        Debug.Log(car.localEulerAngles.x + "      " + car.localEulerAngles.z);
+        if ((car.localEulerAngles.x < 40f || car.localEulerAngles.x > 320f) && (car.localEulerAngles.z < 40f || car.localEulerAngles.z > 320f)) {
+            car.transform.position += car.transform.forward * Time.fixedDeltaTime * speed;
+            crashCounter = 0f;
+        }
+        else {
+            crashCounter++;
+        }
     }
 
     public void rotate() {

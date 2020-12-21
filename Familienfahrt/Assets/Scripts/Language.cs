@@ -37,15 +37,15 @@ public static class Language {
     public static string[] girlSpeechHappy3 = { "Let's make a picknick somwhere ^^", "", "" };
 
     public static string[] girlSpeechMedium1 = { "When will we arrive?", "", "" };
-    public static string[] girlSpeechMedium2 = { "How long will this keep going?", "", "" };
-    public static string[] girlSpeechMedium3 = { "I am bored", "", "" };
-    public static string[] girlSpeechMedium4 = { "My brother is getting on my nerves again.", "", "" };
+    public static string[] girlSpeechMedium2 = { "How long will this keep going?", "Wie lange soll das noch weitergehen?", "" };
+    public static string[] girlSpeechMedium3 = { "I am bored", "Mir ist langweilig", "Ich krinn noch dir Freck" };
+    public static string[] girlSpeechMedium4 = { "My brother is getting on my nerves again.", "Mein Bruder ärgert mich wieder", "Es Bibbche hier versucht wei mich zu ärgere" };
 
     public static string[] girlSpeechAngry1 = { "Can't we drive home now?", "Können wir heimfahren?", "Geht et wei hemm?" };
-    public static string[] girlSpeechAngry2 = { "I don't enjoy this anymore", "", "" };
-    public static string[] girlSpeechAngry3 = { "This is a horrible family trip", "", "" };
-    public static string[] girlSpeechAngry4 = { "Just admit that we got lost.", "", "" };
-    public static string[] girlSpeechAngry5 = { "How did you even get that driving license?", "", "" };
+    public static string[] girlSpeechAngry2 = { "I don't enjoy this anymore", "Das macht keinen Spa0ß mehr", "O wei is ma gudd." };
+    public static string[] girlSpeechAngry3 = { "This is a horrible family trip", "Der Ausflug iit grauenhaft", "Der trip lo is die höll" };
+    public static string[] girlSpeechAngry4 = { "Just admit that we got lost.", "Gib schon zu das wir uns verfahren haben", "Eio unn wo simma wei hier?" };
+    public static string[] girlSpeechAngry5 = { "How did you even get that driving license?", "Wie hast du überhaupt den Führerschein bekommen?", "Wo hascht du wei überhaupt den Lappen lo her?" };
     public static string[] girlSpeechAngry6 = { "...", "...", "Unn nu?" };
 
 

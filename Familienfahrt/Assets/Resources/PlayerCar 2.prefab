@@ -482,6 +482,8 @@ MonoBehaviour:
   speedText: 
   text: {fileID: 4935038950958423908}
   rotationStrength: 3
+  mood: {fileID: 931137337346209955}
+  crashCounter: 0
 --- !u!54 &931137338001989932
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -54,6 +54,10 @@ public class MoodCalculator : MonoBehaviour {
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void carCrashed() {
+        gameIsOver();
+    }
+
     public void gameIsOver() {
         gameOver = true;
 
