@@ -17,6 +17,7 @@ public class CarMovement : MonoBehaviour {
 
     public MoodCalculator mood;
     public float crashCounter = 0f;
+    public float crashDetector = 200f;
 
     public void Start() {
         car = this.transform;
@@ -29,7 +30,7 @@ public class CarMovement : MonoBehaviour {
         rotate();
 
 
-        if( crashCounter > 350f) {
+        if( crashCounter > crashDetector) {
             mood.carCrashed();
         }
     }
