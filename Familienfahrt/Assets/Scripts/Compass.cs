@@ -7,16 +7,9 @@ public class Compass : MonoBehaviour
 {
     public RawImage compass;
     public Transform player;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    
     void FixedUpdate()
     {
-        compass.uvRect = new Rect(player.localEulerAngles.y / 360f + 0f, 0f, .5f, 1f);
+        compass.uvRect = new Rect((player.localEulerAngles.y+180f) / 360f + 0f, 0f, .5f, 1f);
     }
 }
