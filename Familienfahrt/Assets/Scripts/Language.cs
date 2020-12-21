@@ -19,25 +19,25 @@ public static class Language {
     public static string[] wifeSpeechHappy2 = { "It's nice to have a family trip together", "Schön so ein Familienausflug, oder?", "Eiretlich n guddn tach um zu schwenke, net?" };
     public static string[] wifeSpeechHappy3 = { "What do you wanna have for dinner, darling?", "Was sollen wir danach zu Abend essen?", "Hole ma nachher nochn Fleischkäsweck?" };
 
-    public static string[] wifeSpeechMedium1 = { "Don't drive that fast!", "Nicht so schnell fahren", "" };
-    public static string[] wifeSpeechMedium2 = { "No such risky maneuvers please...", "Mit fahr doch weniger riskant", "" };
-    public static string[] wifeSpeechMedium3 = { "And why do you decide where to go?", "Und warum entscheidest du wohin wir fahren?", "" };
-    public static string[] wifeSpeechMedium4 = { "Let me have that map now, i think we're heading the wrong way", "", "" };
+    public static string[] wifeSpeechMedium1 = { "Don't drive that fast!", "Nicht so schnell fahren", "Oh hörna wei mo uff" };
+    public static string[] wifeSpeechMedium2 = { "No such risky maneuvers please...", "Mit fahr doch weniger riskant", "Krien ich een Fleischkäseck" };
+    public static string[] wifeSpeechMedium3 = { "And why do you decide where to go?", "Und warum entscheidest du wohin wir fahren?", "Unn warum entscheitsch dau wo's wei hingeht?" };
+    public static string[] wifeSpeechMedium4 = { "Let me have that map now, i think we're heading the wrong way", "Gib mir mal die Karte, ich glaube wir haben uns verfahren", "So gifft des wei nix, gib mir mo een tour die kart" };
 
-    public static string[] wifeSpeechAngry1 = { "Now drive carefully", "Jetzt fahr schon vorsichtig", "" };
-    public static string[] wifeSpeechAngry2 = { "No more risks or we'll walk home!", "Wenn du nicht sicherer fährst laufen wir besser!", "" };
-    public static string[] wifeSpeechAngry3 = { "You have no idea where we are, right?", "Du hast keine Ahnung wo wir sind, oder?", "" };
-    public static string[] wifeSpeechAngry4 = { "I never should've agreed to this", "Ich hätte dem nie zustimmen sollen...", "" };
-    public static string[] wifeSpeechAngry5 = { "We'd be happier without you", "Ohne dich wäre der Ausflug angenehmer", "" };
-    public static string[] wifeSpeechAngry6 = { "How long do you wanna keep driving like this?", "Wie lange wollen wir eigentlich noch planlos durch die Gegend fahren", "" };
+    public static string[] wifeSpeechAngry1 = { "Now drive carefully", "Jetzt fahr schon vorsichtig", "Oh nee" };
+    public static string[] wifeSpeechAngry2 = { "No more risks or we'll walk home!", "Wenn du nicht sicherer fährst laufen wir besser!", "Ich laafn gleich" };
+    public static string[] wifeSpeechAngry3 = { "You have no idea where we are, right?", "Du hast keine Ahnung wo wir sind, oder?", "Du wescht ach net wo mir sinn? Oje!" };
+    public static string[] wifeSpeechAngry4 = { "I never should've agreed to this", "Ich hätte dem nie zustimmen sollen...", "So een depperten Idee" };
+    public static string[] wifeSpeechAngry5 = { "We'd be happier without you", "Ohne dich wäre der Ausflug angenehmer", "Nächst mol lasse ma dich dahemm" };
+    public static string[] wifeSpeechAngry6 = { "How long do you wanna keep driving like this?", "Wie lange wollen wir eigentlich noch planlos durch die Gegend fahren", "Was mache ma hei üverhaupt" };
 
 
-    public static string[] girlSpeechHappy1 = { "And afterwards i wanna visit the horses :D", "Und danach will ich Pferde sehen", "" };
-    public static string[] girlSpeechHappy2 = { "... and then when we came from school ... and they told ... great day ...", "", "" };
-    public static string[] girlSpeechHappy3 = { "Let's make a picknick somwhere ^^", "", "" };
+    public static string[] girlSpeechHappy1 = { "And afterwards i wanna visit the horses :D", "Und danach will ich Pferde sehen", "Unn dann ab zu de perdche" };
+    public static string[] girlSpeechHappy2 = { "... and then when we came from school ... and they told ... great day ...", "... und dann in der schule ... erzählten sie ... toll ...", "... oh wei wolltn ich doche ire-eppes erzähle" };
+    public static string[] girlSpeechHappy3 = { "Let's make a picknick somwhere ^^", "Lass uns picknicken ^^", "Wolle mir wei mo was esse? So een Lyoner wär doch eppes" };
 
     public static string[] girlSpeechMedium1 = { "When will we arrive?", "... Wie lange noch?", "..." };
-    public static string[] girlSpeechMedium2 = { "How long will this keep going?", "Wie lange soll das noch weitergehen?", "" };
+    public static string[] girlSpeechMedium2 = { "How long will this keep going?", "Wie lange soll das noch weitergehen?", "Wei is mol genuch" };
     public static string[] girlSpeechMedium3 = { "I am bored", "Mir ist langweilig", "Ich krinn noch dir Freck" };
     public static string[] girlSpeechMedium4 = { "My brother is getting on my nerves again.", "Mein Bruder ärgert mich wieder", "Es Bibbche hier versucht wei mich zu ärgere" };
 
@@ -68,15 +68,15 @@ public static class Language {
 
     public static string[] startGame = {"Start game", "Spiel starten", "Stard'e ma mo wei"};
     public static string[] LanguageNames = { "English", "Deutsch", "Saarlännich'" };
-    public static string[] controls = { "- Car Control: WASD \n- Leftmouse to interact \n- Rightmouse to move cursor freely",
-        "- Fahrzeugsteuerung: WASD \n- Linke Maustaste zum interagieren \n- Rechte Maustaste um den Cursor frei zu bewegen",
-        "- Wägelche: WASD \n- Linka Maustrikka fürs interagier'e \n- Rechtn Maustrikka für en Zeicher frei zu bewe'chen" };
-    public static string[] story = { "You are making a family trip on your free day. Keep everyone in a good mood and be careful not to crash the car.",
-        "Du genießt einen Familienausflug mit Frau und Kinder. Gehe sicher das jeder den Tag genießt und baue keinen Autounfall.",
-        "N Autofahrd midda gansa Famill', da sollde doch jeden in na guddn laune sinn. En Autounfall soll da wei bloß fott bleiwe" };
-    public static string[] credits = { "Created by: Kiwi Tobi (Jen)",
-        "Created by: Kiwi Tobi (Jen)",
-        "Gemoh'n von em Kiwi, em Tobi (un em Jen)" };
+    public static string[] controls = { "- Car Control: WASD \n- Leftmouse to interact \n- Rightmouse to move cursor freely \n-Esc for settings \n- Tab switches the perspective",
+        "- Fahrzeugsteuerung: WASD \n- Linke Maustaste zum interagieren \n- Rechte Maustaste um den Cursor frei zu bewegen \n- Esc öffnet die Einstellungen \n - Tab wechselt die Perspektive",
+        "- Wägelche: WASD \n- Linka Maustrikka fürs interagier'e \n- Rechtn Maustrikka für en Zeicher frei zu bewe'chen \n - Esc für de Einstellunge \n - Tab für een andere Blickwinkel" };
+    public static string[] story = { "You are making a family trip on your free day. Keep everyone in a good mood and be careful not to crash the car. Collecting Sausages improves the mood. A low mood means more distraction.",
+        "Du genießt einen Familienausflug mit Frau und Kindern. Sammle Lyoner-Wurst um alle bei Laune zu halten damit sie dich nicht vom fahren ablenken und baue keinen Unfall.",
+        "N Autofahrd midda gansa Famill', da sollde doch jeden in na guddn laune sinn. En Autounfall soll da wei bloß fott bleiwe, weshalb du ach Lyoner sammle musst damit dei famill dich neicht ablenge tut" };
+    public static string[] credits = { "Created by: Kiwi Tobi",
+        "Created by: Kiwi Tobi",
+        "Gemoh'n von em Kiwi unn em Tobi" };
 
 
     public static string[] retryGame = { "Retry", "Erneut versuchen", "Nommo retour" };
