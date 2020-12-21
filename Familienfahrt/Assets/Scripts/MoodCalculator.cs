@@ -24,6 +24,12 @@ public class MoodCalculator : MonoBehaviour {
             EventManagement();
             showScore();
         }
+
+
+        if(mood < 0f) {
+            gameIsOver();
+            mood = 0f;
+        }
     }
 
 
@@ -57,7 +63,6 @@ public class MoodCalculator : MonoBehaviour {
         gameOverLay.transform.GetChild(2).GetChild(0).GetComponent<Text>().text = Language.getText(Language.retryGame);
         gameOverLay.transform.GetChild(3).GetChild(0).GetComponent<Text>().text = Language.getText(Language.toMenu);
     }
-
 
 
     [Header("Mood")]

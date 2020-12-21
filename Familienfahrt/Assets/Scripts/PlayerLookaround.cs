@@ -9,6 +9,8 @@ public class PlayerLookaround : MonoBehaviour
     public Transform playerBody;
     public Camera cam;
 
+    public MoodCalculator mood;
+
     public float xRotation = 0f;
 
 
@@ -21,13 +23,15 @@ public class PlayerLookaround : MonoBehaviour
 
 
     public void FixedUpdate() {
-        testMouseMode();
-        if (mouseLock) {
-            Cursor.lockState = CursorLockMode.Locked;
-            Lookaround();
-        }
-        else {
-            Cursor.lockState = CursorLockMode.None;
+        if (!mood.gameOver) {
+            testMouseMode();
+            if (mouseLock) {
+                Cursor.lockState = CursorLockMode.Locked;
+                Lookaround();
+            }
+            else {
+                Cursor.lockState = CursorLockMode.None;
+            }
         }
     }
 
@@ -40,8 +44,8 @@ public class PlayerLookaround : MonoBehaviour
     public void Lookaround() {
 
         ///Camera
-        float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
+        float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.fixedDeltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * sensitivity * Time.fixedDeltaTime;
 
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
