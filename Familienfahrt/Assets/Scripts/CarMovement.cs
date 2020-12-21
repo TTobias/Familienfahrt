@@ -32,7 +32,7 @@ public class CarMovement : MonoBehaviour {
         speed += acceleration * tmp * Time.deltaTime;
         if (speed > maxSpeed) speed = maxSpeed;
         if (speed < 0) speed = 0;
-        car.transform.position += car.transform.forward * Time.deltaTime * speed;
+        car.transform.position += car.transform.forward * Time.fixedDeltaTime * speed;
     }
 
     public void rotate() {
