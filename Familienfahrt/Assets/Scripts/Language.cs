@@ -68,9 +68,9 @@ public static class Language {
 
     public static string[] startGame = {"Start game", "Spiel starten", "Stard'e ma mo wei"};
     public static string[] LanguageNames = { "English", "Deutsch", "Saarlännich'" };
-    public static string[] controls = { "- Car Control: WASD \n- Leftmouse to interact \n- Rightmouse to move cursor freely \n-Esc for settings \n- Tab switches the perspective",
-        "- Fahrzeugsteuerung: WASD \n- Linke Maustaste zum interagieren \n- Rechte Maustaste um den Cursor frei zu bewegen \n- Esc öffnet die Einstellungen \n - Tab wechselt die Perspektive",
-        "- Wägelche: WASD \n- Linka Maustrikka fürs interagier'e \n- Rechtn Maustrikka für en Zeicher frei zu bewe'chen \n - Esc für de Einstellunge \n - Tab für een andere Blickwinkel" };
+    public static string[] controls = { "- Car Control: WASD \n- Leftmouse to interact \n- Rightmouse to move cursor freely \n-E for settings \n- Tab switches the perspective",
+        "- Fahrzeugsteuerung: WASD \n- Linke Maustaste zum interagieren \n- Rechte Maustaste um den Cursor frei zu bewegen \n- E öffnet die Einstellungen \n - Tab wechselt die Perspektive",
+        "- Wägelche: WASD \n- Linka Maustrikka fürs interagier'e \n- Rechtn Maustrikka für en Zeicher frei zu bewe'chen \n - E für de Einstellunge \n - Tab für een andere Blickwinkel" };
     public static string[] story = { "You are making a family trip on your free day. Keep everyone in a good mood and be careful not to crash the car. Collecting Sausages improves the mood. A low mood means more distraction.",
         "Du genießt einen Familienausflug mit Frau und Kindern. Sammle Lyoner-Wurst um alle bei Laune zu halten damit sie dich nicht vom fahren ablenken und baue keinen Unfall.",
         "N Autofahrd midda gansa Famill', da sollde doch jeden in na guddn laune sinn. En Autounfall soll da wei bloß fott bleiwe, weshalb du ach Lyoner sammle musst damit dei famill dich neicht ablenge tut" };

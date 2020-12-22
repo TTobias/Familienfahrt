@@ -220,7 +220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8280434175542795844
 RectTransform:
   m_ObjectHideFlags: 0
@@ -230,7 +230,7 @@ RectTransform:
   m_GameObject: {fileID: 174495808761523027}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 9090140521932742237}
   - {fileID: 9015885306554019198}
@@ -241,7 +241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -320}
+  m_AnchoredPosition: {x: 0, y: 54.2}
   m_SizeDelta: {x: 440, y: 248}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5819051713490552505
@@ -4880,7 +4880,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7746478, y: 1}
+    m_SensorSize: {x: 1.7792642, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -7115,7 +7115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 028b64f08236950499312a854cae2410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: 27
+  button: 101
   pauseMenu: {fileID: 4501086866654041713}
   mixer: {fileID: 24100000, guid: 8b25dddc9a9581546977be20f67208de, type: 2}
 --- !u!54 &8568033517235917296
